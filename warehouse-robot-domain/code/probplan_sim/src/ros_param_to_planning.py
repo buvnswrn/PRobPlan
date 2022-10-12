@@ -141,13 +141,13 @@ class PlanningProblem:
             task.utility = 100
 
     def load_params(self):
-        os.chdir("/home/gdhu/tiago_public_ws/src/tiago_simulation/mult_protap_sim/params/")
+        os.chdir("/home/bhuvanesh/tiago_public_ws/src/tiago_simulation/mult_protap_sim/params/")
         paramlist = rosparam.load_file("spots.yaml", default_namespace=None)
         for params, ns in paramlist:
             rosparam.upload_params(ns, params)
     
     def dump_to_json_file(self):
-        os.chdir("/home/gdhu/tiago_public_ws/src/tiago_simulation/mult_protap_sim/params/")
+        os.chdir("/home/bhuvanesh/tiago_public_ws/src/tiago_simulation/mult_protap_sim/params/")
         with open('./ros_param_to_json.json', 'w') as f:
             json.dump(self, f, default=dumper, indent=2, sort_keys=True)
         rospy.loginfo('dump to json file successfully!')
