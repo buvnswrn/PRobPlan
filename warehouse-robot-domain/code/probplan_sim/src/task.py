@@ -41,7 +41,7 @@ class TaskDispatch():
     
     def helper_get_action_list(self, action_name):
         action_list = []
-        with open('/home/gdhu/projects/test/files/plan.txt', 'r') as f:
+        with open('/home/bhuvanesh/projects/test/files/plan.txt', 'r') as f:
             for line in f:
                 if line.find(action_name)!=-1:
                     line = line.replace('[','').replace(']','').replace(';,','|').replace(';','').replace(' ','').rstrip('\n')
@@ -55,7 +55,7 @@ class TaskDispatch():
     
     def check_action_in_line_num(self, action_name):
         result = 0
-        with open('/home/gdhu/projects/test/files/plan.txt', 'r') as f:
+        with open('/home/bhuvanesh/projects/test/files/plan.txt', 'r') as f:
             for num, line in enumerate(f, 1) :
                 if line.find(action_name)!=-1:
                     result = num

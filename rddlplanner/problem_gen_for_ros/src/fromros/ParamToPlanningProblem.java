@@ -143,12 +143,12 @@ public class ParamToPlanningProblem {
     public static void main(String[] args) throws Exception {
 
         // load json file output by ros node
-        String jsonString = FileUtil.readFile("/home/gdhu/tiago_public_ws/src/tiago_simulation/mult_protap_sim/params/ros_param_to_json.json");
+        String jsonString = FileUtil.readFile("/home/bhuvanesh/tiago_public_ws/src/tiago_simulation/mult_protap_sim/params/ros_param_to_json.json");
         ProblemParam problemJson = JSON.parseObject(jsonString, ProblemParam.class);
 
         // generate planning problem file
         ParamToPlanningProblem p = new ParamToPlanningProblem();
-        final String path = "/home/gdhu/projects/test/files/";
+        final String path = "/home/bhuvanesh/projects/test/files/";
         System.out.println("Start generate problems...");
         p.writefile(path, problemJson);
         System.out.println("Success!");
