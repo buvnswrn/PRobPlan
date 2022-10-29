@@ -16,7 +16,7 @@ class RDDLPlanner():
     # start rddl server, write plan to file
     def launch_planner_client(self):
         rospy.logdebug('planner client starts!')
-        os.chdir("/home/bhuvanesh/projects/planner/copyb/planner")
+        os.chdir("/home/mrk/projects/planner/copyb/planner")
         cmd = '''./run_ros_planner_clt.sh rddl.competition.Team3 multi_ros_robot_inst_mdp__1 2323'''
         result = os.popen(cmd)
         # print(result.read())
@@ -26,9 +26,9 @@ class RDDLPlanner():
     # launch rddl planner client
     def launch_planner_server(self):
         rospy.logdebug('planner server starts!')
-        os.chdir("/home/bhuvanesh/projects/server/rddlsim")
+        os.chdir("/home/mrk/projects/server/rddlsim")
         rospy.logdebug(os.getcwd())
-        cmd = '''./run_ros_planner_srv.sh rddl.competition.Server /home/bhuvanesh/projects/test/files | grep "** Actions received:" | cut -c 22- > /home/bhuvanesh/projects/test/files/plan.txt'''
+        cmd = '''./run_ros_planner_srv.sh rddl.competition.Server /home/mrk/projects/test/files | grep "** Actions received:" | cut -c 22- > /home/mrk/projects/test/files/plan.txt'''
         result = os.popen(cmd)
         # print(result.read())
         rospy.logdebug('planner server finished!')
@@ -36,7 +36,7 @@ class RDDLPlanner():
     
     def launch_planner_gen_problem(self):
         rospy.logdebug('planner_gen_problem starts!')
-        os.chdir("/home/bhuvanesh/projects/test")
+        os.chdir("/home/mrk/projects/test")
         rospy.logdebug(os.getcwd())
         cmd = '''./run_planner_gen_problem.sh rosgen.fromros.ParamToPlanningProblem'''
         result = os.popen(cmd)
