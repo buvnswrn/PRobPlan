@@ -1,0 +1,68 @@
+instance multi_ros_robot_inst_mdp__1 {
+
+	domain = multi_ros_robot_mdp;
+
+	objects {
+		robot : {
+			tiago1,
+			tiago2 };
+		ability : {
+			a00_pick,
+			a01_drop,
+			a02_pack };
+		location : { l_t00,l_t01,l_t02,l_t03,l_t04,l_t05,l_t06 };
+		task : {
+			t00_pick_obj1,
+			t02_drop_obj1,
+			t03_drop_obj2,
+			t04_put_obj1_into_box,
+			t05_put_obj2_into_box,
+			t06_pack_all };
+  };
+
+	non-fluents {
+		MOVE_PROB(tiago1) = 0.9;
+		MOVE_PROB(tiago2) = 0.9;
+		DO_PROB(tiago1) = 0.9;
+		DO_PROB(tiago2) = 0.9;
+		GOTO_COST(l_t01, l_t00) = 3.0781115431598534;
+		GOTO_COST(l_t01, l_t02) = 7.404823934119508;
+		GOTO_COST(l_t01, l_t03) = 8.77439868667357;
+		GOTO_COST(l_t01, l_t04) = 8.235450000099624;
+		GOTO_COST(l_t01, l_t05) = 9.407914362602549;
+		GOTO_COST(l_t01, l_t06) = 9.373644293049999;
+		GOTO_COST(l_t00, l_t00) = 10.0;
+		GOTO_COST(l_t00, l_t02) = 7.588685865207628;
+		GOTO_COST(l_t00, l_t03) = 8.997975348539008;
+		GOTO_COST(l_t00, l_t04) = 8.459790792997154;
+		GOTO_COST(l_t00, l_t05) = 9.62981586738775;
+		GOTO_COST(l_t00, l_t06) = 9.615608645255003;
+		TASK(t00_pick_obj1, a00_pick, l_t00);
+		TASK(t02_drop_obj1, a01_drop, l_t02);
+		TASK(t03_drop_obj2, a01_drop, l_t03);
+		TASK(t04_put_obj1_into_box, a02_pack, l_t04);
+		TASK(t05_put_obj2_into_box, a02_pack, l_t05);
+		TASK(t06_pack_all, a02_pack, l_t06);
+		TASK_UTILITY(t00_pick_obj1) = 100;
+		TASK_UTILITY(t02_drop_obj1) = 100;
+		TASK_UTILITY(t03_drop_obj2) = 100;
+		TASK_UTILITY(t04_put_obj1_into_box) = 100;
+		TASK_UTILITY(t05_put_obj2_into_box) = 100;
+		TASK_UTILITY(t06_pack_all) = 100;
+	};
+
+	init-state {
+		robot-at(tiago1, l_t01);
+		robot-at(tiago2, l_t00);
+		pre-task-finished(t00_pick_obj1, t02_drop_obj1) = false;
+		pre-task-finished(t02_drop_obj1, t04_put_obj1_into_box) = false;
+		pre-task-finished(t03_drop_obj2, t05_put_obj2_into_box) = false;
+		pre-task-finished(t04_put_obj1_into_box, t06_pack_all) = false;
+		pre-task-finished(t05_put_obj2_into_box, t06_pack_all) = false;
+	};
+
+	horizon = 10;
+
+	discount = 0.8;
+
+}

@@ -1,0 +1,473 @@
+    1  exit
+    2  roslaunch probplan_gazebo_sim.launch 
+    3  exit
+    4  cd tiago_public_ws/
+    5  ls
+    6  cd src
+    7  ls
+    8  cd PRobPlan/
+    9  ls
+   10  cd warehouse-robot-domain/
+   11  ls
+   12  cd code/probplan_sim/
+   13  ls
+   14  cd src
+   15  ls
+   16  code planner.py
+   17  roslaunch probplan_gazebo_sim.launch 
+   18  cd code/probplan_sim/
+   19  cd src
+   20  cd tiago_public_ws/
+   21  cd src
+   22  code planner.py
+   23  ls
+   24  cd PRobPlan/
+   25  cd warehouse-robot-domain/
+   26  cd code/probplan_sim/
+   27  code planner.py
+   28  cd src
+   29  code planner.py
+   30  roslaunch probplan_gazebo_sim.launch 
+   31  ls
+   32  cd ..
+   33  ls
+   34  cd launch
+   35  ls
+   36  roslaunch probplan_gazebo_sim.launch
+   37  history
+   38  cd ..
+   39  roslaunch probplan_gazebo_sim.launch
+   40  rospack find tb_tables
+   41  rospack find
+   42  gazebo&
+   43  rviz&
+   44  cd launch
+   45  roslaunch probplan_gazebo_sim.launch
+   46  cd ~
+   47  ls
+   48  cd tiago_public_ws/
+   49  ls
+   50  cd PRobPlan/
+   51  ls
+   52  cd warehouse-robot-domain/
+   53  ls
+   54  cd ../../
+   55  cd src
+   56  ls
+   57  cd ../
+   58  cd PRobPlan/warehouse-robot-domain/code/probplan_sim/
+   59  ls
+   60  cd launch/
+   61  gazebo&
+   62  rviz&
+   63  roslaunch probplan_gazebo_sim.launch
+   64  cd ..
+   65  cd maps/
+   66  ls
+   67  cd ...
+   68  cd ..
+   69  cd l
+   70  cd launch/
+   71  roslaunch probplan_gazebo_sim.launch
+   72  source /opt/ros/noetic/setup.bash
+   73  source ~/opt/ros/noetic/setup.bash
+   74  cd  ~/opt/ros/
+   75  cd  ~/opt
+   76  cd  /opt
+   77  cd ros/
+   78  ls
+   79  cd melodic/
+   80  cd ~/tiago_public_ws/PRobPlan/warehouse-robot-domain/code/probplan_sim/launch
+   81  source ~/opt/ros/melodic/setup.bash
+   82  source /opt/ros/melodic/setup.bash
+   83  roslaunch probplan_gazebo_sim.launch
+   84  find tiago_gazebo
+   85  man find
+   86  cd ~/tiago_public_ws/
+   87  ls
+   88  rosinstall tiago_public.rosinstall 
+   89  rosinstall
+   90  cd ..
+   91  rosinstall tiago_public_ws/
+   92  cd tiago_public_ws/
+   93  ls
+   94  cd ROSPlan/
+   95  ls
+   96  cd src
+   97  ls
+   98  cd rosplan
+   99  ls
+  100  cd ../../..
+  101  ls
+  102  cd src/
+  103  ls
+  104  find tiago
+  105  find tiago_multi
+  106  find tiago_navigation
+  107  ls
+  108  cd ..
+  109  find tiago_navigation
+  110  find *./tiago_navigation
+  111  history
+  112  roslaunch tiago_gazebo tiago_gazebo.launch
+  113  cd ~
+  114  cd tiago_public_ws/
+  115  roslaunch tiago_gazebo tiago_gazebo.launch
+  116  source ./devel/setup.bash 
+  117  roslaunch tiago_gazebo tiago_gazebo.launch
+  118  roslaunch tiago_gazebo tiago_gazebo.launch public_sim:=true end_effector:=pal-gripper
+  119  gazebo&
+  120  ps
+  121  kill 114
+  122  ps
+  123  kill --help
+  124  kill all
+  125  kill --all
+  126  kill -all
+  127  kill -s 114
+  128  kill 114
+  129  ps
+  130  ps -ef
+  131  kill -114
+  132  kill -15 -1
+  133  kill -9 -1
+  134  pkill roslaunch
+  135  ps
+  136  gazebo&
+  137  rviz
+  138  rviz&
+  139  gazebo
+  140  killall gzserver
+  141  killall gazebo
+  142  ps
+  143  killall bash
+  144  ps
+  145  killall ps
+  146  ps
+  147  gazebo&
+  148  xcb_disconnect() exit
+  149  xcb_disconnect() ;
+  150  exit
+  151  ps
+  152  gazebo&
+  153  sudo gazebo&
+  154  ps
+  155  xhost +SI:localuser:bhuvanesh
+  156  gazebo&
+  157  sudo gazebo
+  158  sudo gazebo&
+  159  cd /mnt/e
+  160  sudo gazebo&
+  161  gazebo
+  162  sudo gazebo
+  163  sudo chown -R $USER:$USER $HOME/
+  164  sudo gazebo
+  165  sudo chown -R $USER:$USER $HOME/
+  166  pavucontrol
+  167  sudo gazebo
+  168  gazebo
+  169  sudo apt-get remove gazebo
+  170  sudo apt-get remove ros-*
+  171  sudo sh -c 'echo "deb http://packages.ros.org/ros/ubuntu $(lsb_release -sc) main" > /etc/apt/sources.list.d/ros-latest.list'
+  172  curl -s https://raw.githubusercontent.com/ros/rosdistro/master/ros.asc | sudo apt-key add -
+  173  sudo apt update
+  174  sudo apt install ros-melodic-desktop-full
+  175  sudo apt install python-rosdep python-rosinstall python-rosinstall-generator python-wstool build-essential
+  176  sudo apt-get install git python-rosinstall python-catkin-tools ros-melodic-joint-state-controller ros-melodic-twist-mux ros-melodic-ompl ros-melodic-controller-manager ros-melodic-moveit-core ros-melodic-moveit-ros-perception ros-melodic-moveit-ros-move-group ros-melodic-moveit-kinematics ros-melodic-moveit-ros-planning-interface ros-melodic-moveit-simple-controller-manager ros-melodic-moveit-planners-ompl ros-melodic-joy ros-melodic-joy-teleop ros-melodic-teleop-tools ros-melodic-control-toolbox ros-melodic-sound-play ros-melodic-navigation ros-melodic-depthimage-to-laserscan ros-melodic-moveit-commander
+  177  ls
+  178  cd tiago_public_ws/
+  179  cd ..
+  180  mv tiago_public_ws/ tiago_public_ws1/
+  181  ls
+  182  mkdir tiago_public_ws/
+  183  cd tiago_public_ws
+  184  wget https://raw.githubusercontent.com/pal-robotics/tiago_tutorials/kinetic-devel/tiago_public-melodic.rosinstall
+  185  rosinstall src /opt/ros/melodic tiago_public.rosinstall
+  186  source /opt/ros/melodic/setup.bash
+  187  rosinstall src /opt/ros/melodic tiago_public.rosinstall
+  188  ls
+  189  rosinstall src tiago_public.rosinstall
+  190  rm tiago_public-melodic.rosinstall 
+  191  wget https://raw.githubusercontent.com/pal-robotics/tiago_tutorials/kinetic-devel/tiago_public-melodic.rosinstall
+  192  rosinstall src /opt/ros/melodic tiago_public.rosinstall
+  193  ls
+  194  cat tiago_public-melodic.rosinstall 
+  195  code tiago_public-melodic.rosinstall 
+  196  cd ../tiago_public_ws1/
+  197  ls
+  198  cat tiago_public.rosinstall 
+  199  cp tiago_public.rosinstall ../tiago_public_ws/tiago_public-melodic.rosinstall1
+  200  cd ../tiago_public_ws
+  201  ls
+  202  cat tiago_public-melodic.rosinstall1
+  203  rm tiago_public-melodic.rosinstall
+  204  mv tiago_public-melodic.rosinstall1 tiago_public-melodic.rosinstall
+  205  ls
+  206  rosinstall src /opt/ros/melodic tiago_public.rosinstall
+  207  wstool init . ./tiago_public-melodic.rosinstall
+  208  ls
+  209  sudo rosdep init
+  210  rosdep update
+  211  rosdep install --from-paths src --ignore-src -y --rosdistro melodic --skip-keys="opencv2 opencv2-nonfree pal_laser_filters speed_limit_node sensor_to_cloud hokuyo_node libdw-dev python-graphitesend-pip python-statsd pal_filters pal_vo_server pal_usb_utils pal_pcl pal_pcl_points_throttle_and_filter pal_karto pal_local_joint_control camera_calibration_files pal_startup_msgs pal-orbbec-openni2 dummy_actuators_manager pal_local_planner gravity_compensation_controller current_limit_controller dynamic_footprint dynamixel_cpp tf_lookup opencv3 joint_impedance_trajectory_controller cartesian_impedance_controller omni_base_description omni_drive_controller"
+  212  rosintall src /opt/ros/melodic tiago_public.rosinstall 
+  213  rosinstall src /opt/ros/melodic tiago_public.rosinstall 
+  214  rosinstall src /opt/ros/melodic tiago_public-melodic.rosinstall 
+  215  cd ..
+  216  rm tiago_public_ws
+  217  rm -f tiago_public_ws
+  218  rm -rf tiago_public_ws
+  219  mkdir tiago_public_ws
+  220  cd tiago_public_ws
+  221  wget https://raw.githubusercontent.com/pal-robotics/tiago_tutorials/kinetic-devel/tiago_public-melodic.rosinstall
+  222  rosinstall src /opt/ros/melodic tiago_public-melodic.rosinstall
+  223  sudo rosdep init
+  224  rosdep update
+  225  rosdep install --from-paths src --ignore-src -y --rosdistro melodic --skip-keys="opencv2 opencv2-nonfree pal_laser_filters speed_limit_node sensor_to_cloud hokuyo_node libdw-dev python-graphitesend-pip python-statsd pal_filters pal_vo_server pal_usb_utils pal_pcl pal_pcl_points_throttle_and_filter pal_karto pal_local_joint_control camera_calibration_files pal_startup_msgs pal-orbbec-openni2 dummy_actuators_manager pal_local_planner gravity_compensation_controller current_limit_controller dynamic_footprint dynamixel_cpp tf_lookup opencv3 joint_impedance_trajectory_controller cartesian_impedance_controller omni_base_description omni_drive_controller"
+  226  source /opt/ros/melodic/setup.bash
+  227  catkin build -DCATKIN_ENABLE_TESTING=0 -j $(expr `nproc` / 2)
+  228  source ./devel/setup.bash 
+  229  roslaunch tiago_gazebo tiago_gazebo.launch public_sim:=true end_effector:=pal-gripper
+  230  ps
+  231  killall code.exe
+  232  killall Code.exe
+  233  ps
+  234  pkill Code.exe
+  235  ps
+  236  gazebo
+  237  roslaunch tiago_gazebo tiago_gazebo.launch public_sim:=true end_effector:=pal-hey5
+  238  ps
+  239  SIGKILL
+  240  sigkill
+  241  rviz
+  242  git clone https://github.com/fip-lab/PRobPlan#readme
+  243  git clone https://github.com/fip-lab/PRobPlan.git
+  244  ls
+  245  rm PRobPlan/
+  246  rm -rf PRobPlan/
+  247  ls
+  248  cd src
+  249  git clone https://github.com/fip-lab/PRobPlan.git
+  250  cd ..
+  251  catkin_make
+  252  catkin build
+  253  source ./devel/setup.bash
+  254  roslaunch probplan_sim probplan_gazebo_sim.launch
+  255  roslaunch mult_protap_sim probplan_gazebo_sim.launch
+  256  rospack profile
+  257  ls
+  258  cd src
+  259  ls
+  260  cd PRobPlan/
+  261  ls
+  262  cd warehouse-robot-domain/
+  263  ls
+  264  cd domain
+  265  ls
+  266  cd ..
+  267  cd code
+  268  ls
+  269  cd probplan_sim/
+  270  ls
+  271  cd sr
+  272  cd src
+  273  ls
+  274  cd ~/tiago_public_ws
+  275  rosrun probplan_sim plan_to_ros_main.py
+  276  rosrun mult_protap_sim plan_to_ros_main.py
+  277  roslaunch mult_protap_sim probplan_gazebo_sim.launch&
+  278  tmux
+  279  rosrun mult_protap_sim plan_to_ros_main.py
+  280  exit
+  281  ps
+  282  ps
+  283  pskill roslaunch
+  284  pkill roslaunch
+  285  export DISPLAY:=0
+  286  export DISPLAY=:0
+  287  gazebo
+  288  exit
+  289  roslaunch mult_protap_sim probplan_gazebo_sim.launch
+  290  cd tiago_public_ws
+  291  roslaunch mult_protap_sim probplan_gazebo_sim.launch
+  292  source ./devel/setup.bash
+  293  roslaunch mult_protap_sim probplan_gazebo_sim.launch
+  294  roslaunch mult_protap_sim probplan_gazebo_sim.launch&
+  295  source ./devel/setup.bash
+  296  cd tiago_public_ws
+  297  roslaunch mult_protap_sim probplan_gazebo_sim.launch&
+  298  source ./devel/setup.bash
+  299  roslaunch mult_protap_sim probplan_gazebo_sim.launch&
+  300  rosrun mult_protap_sim plan_to_ros_main.py
+  301  history
+  302  history >> history.txt
+  303  ls
+  304  cat history.txt
+  305  exit
+  306  gazebo
+  307  tmux
+  308  tmux --help
+  309  tmux new -s gazebo
+  310  tmux -a gazebo
+  311  tmux -attach gazebo
+  312  tmux attach gazebo
+  313  tmux attach -s gazebo
+  314  tmux a
+  315  tmux ls
+  316  tmux new -s gazebo
+  317  cat history.txt
+  318  pkill roslaunch
+  319  ps
+  320  pkill gazebo
+  321  ps
+  322  pkill dbus-launch 
+  323  ps
+  324  pkill --all
+  325  pkill
+  326  ps
+  327  pkill gzserver 
+  328  pkill gazebo
+  329  ps
+  330  pkill gzserver <defunct>
+  331  pkill "gzserver"
+  332  pkill "gzserver <defunct>"
+  333  ps
+  334  exit
+  335  cd tiago_public_ws
+  336  source ./devel/setup.bash 
+  337  roslaunch mult_protap_sim probplan_gazebo_sim.launch
+  338  gazebo
+  339  exit
+  340  gazebo
+  341  sudo gazebo
+  342  exit
+  343  cd tiago_public_ws
+  344  cd src/PRobPlan/warehouse-robot-domain/code/probplan_sim/maps/
+  345  ls
+  346  cat map.yaml
+  347  cd ../../../
+  348  cd src/
+  349  cd tiago_simulation/
+  350  ls
+  351  cd tiago_gazebo/
+  352  ls
+  353  cd worlds
+  354  ls
+  355  cd ../../../
+  356  cd PRobPlan/
+  357  cd warehouse-robot-domain/
+  358  ls
+  359  cd code/
+  360  ls
+  361  cd probplan_sim/
+  362  ls
+  363  cd worlds/
+  364  ls
+  365  cp probplan_warehouse.world ~/tiago_public_ws/src/tiago_simulation/tiago_gazebo/worlds/probplan_warehouse.world
+  366  cd ~/tiago_public_ws/src/tiago_simulation/tiago_gazebo/worlds
+  367  ls
+  368  cd ~/tiago_public_ws/src/PRobPlan/warehouse-robot-domain/code/probplan_sim
+  369  ls
+  370  cd maps
+  371  ls
+  372  cp map.yaml mmap.yaml
+  373  ls
+  374  cd ~/tiago_public_ws
+  375  rosrun mult_protap_sim plan_to_ros_main.py
+  376  source ./devel/setup.bash 
+  377  rosrun mult_protap_sim plan_to_ros_main.py
+  378  cd src/PRobPlan/warehouse-robot-domain/code/probplan_sim/params/
+  379  ls
+  380  cd ..
+  381  ls
+  382  cd ~/tiago_public_ws/src/tiago_simulation
+  383  ls
+  384  mkdir mult_protap_sim
+  385  cp ~/tiago_public_ws/src/PRobPlan/warehouse-robot-domain/code/probplan_sim/params params
+  386  cp -r ~/tiago_public_ws/src/PRobPlan/warehouse-robot-domain/code/probplan_sim/params params
+  387  ls
+  388  cd params
+  389  ls
+  390  cd ..
+  391  cp -r params mult_protap_sim/params
+  392  cd mult_protap_sim/
+  393  ls
+  394  cd params
+  395  ls
+  396  cd /home/bhuvanesh/tiago_public_ws/src/PRobPlan/warehouse-robot-domain/code/probplan_sim/src/
+  397  ls
+  398  code ros_param_to_planning.py
+  399  cat ros_param_to_planning.py
+  400  cd ~/tiago_public_ws
+  401  rosrun mult_protap_sim plan_to_ros_main.py
+  402  code /home/bhuvanesh/tiago_public_ws/src/PRobPlan/warehouse-robot-domain/code/probplan_sim/src/planner.py
+  403  cd /home/bhuvanesh
+  404  mkdir projects/test/files
+  405  mkdir -r projects/test/files
+  406  mkdir --help
+  407  mkdir projects/test
+  408  mkdir projects
+  409  mkdir projects/test
+  410  mkdir -r projects/test/files
+  411  mkdir projects/test/files
+  412  code tiago_public_ws/src/PRobPlan/rddlplanner/problem_gen_for_ros/src/fromros/ParamToPlanningProblem.java
+  413  code tiago_public_ws/src/PRobPlan/warehouse-robot-domain/code/probplan_sim/src/planner.py
+  414  cp tiago_public_ws/src/PRobPlan/rddlplanner/sogbofa/ /home/bhuvanesh/projects/planner/copyb/planner/
+  415  cp -r tiago_public_ws/src/PRobPlan/rddlplanner/sogbofa/ /home/bhuvanesh/projects/planner/copyb/planner/
+  416  mkdir /home/bhuvanesh/projects/planner
+  417  mkdir /home/bhuvanesh/projects/planner/copyb/
+  418  mkdir /home/bhuvanesh/projects/planner/copyb/planner
+  419  cp -r tiago_public_ws/src/PRobPlan/rddlplanner/sogbofa/ /home/bhuvanesh/projects/planner/copyb/planner/
+  420  cd /home/bhuvanesh/projects/planner/copyb/planner/
+  421  ls
+  422  cd sogbofa/
+  423  ls
+  424  cp -r ~/projects/planner/copyb/planner/sogbofa ../
+  425  cp -r ~/projects/planner/copyb/planner/sogbofa/* ../
+  426  ls
+  427  cd ..
+  428  ls
+  429  rm -rf sogbofa/
+  430  ls
+  431  cd ~/projects/
+  432  ls
+  433  mkdir server
+  434  cp -r tiago_public_ws/src/PRobPlan/rddlplanner/rddlsim/ /home/bhuvanesh/projects/server/
+  435  cp -r tiago_public_ws/src/PRobPlan/rddlplanner/rddlsim /home/bhuvanesh/projects/server/
+  436  cp -r ~/tiago_public_ws/src/PRobPlan/rddlplanner/rddlsim /home/bhuvanesh/projects/server/
+  437  ls
+  438  cd server
+  439  ls
+  440  cd rddlsim
+  441  ls
+  442  cp run_ros_planner_srv.sh ~/projects/test/run_planner_gen_problem.sh
+  443  cd ~/projects/test/
+  444  ls
+  445  cd files
+  446  ls
+  447  cp -r ~/tiago_public_ws/src/PRobPlan/rddlplanner/problem_gen_for_ros/ /home/bhuvanesh/projects/test/
+  448  cd ..
+  449  ls
+  450  cp problem_gen_for_ros/* .
+  451  cp -r problem_gen_for_ros/* .
+  452  ls
+  453  cd src
+  454  ls
+  455  cd fromros/
+  456  ls
+  457  code ParamToPlanningProblem.java
+  458  cd ~/tiago_public_ws
+  459  rosrun mult_protap_sim plan_to_ros_main.py
+  460  code /home/bhuvanesh/tiago_public_ws/src/PRobPlan/warehouse-robot-domain/code/probplan_sim/src/plan_to_ros_main.py
+  461  code /home/bhuvanesh/tiago_public_ws/src/PRobPlan/warehouse-robot-domain/code/probplan_sim/src/task.py
+  462  java
+  463  sudo apt install default-jre
+  464  java
+  465  java --version
+  466  rosrun mult_protap_sim plan_to_ros_main.py
+  467  cd ~/projects/
+  468  ls
+  469  cd test/files/
+  470  ls
+  471  cat plan.txt
+  472  history
+  473  history >> history.txt
